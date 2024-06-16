@@ -1,0 +1,32 @@
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .personal-info, .work-experience, .education, .skills, .languages {
+    margin-bottom: 20px;
+  }
+  
+  .personal-info p, .job p, .education-item p {
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones CV y Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .cv-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .perfil-button {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        .cv-button:hover {
+            background-color: #45a049;
+        }
+
+        .perfil-button:hover {
+            background-color: #007bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button-container">
+        <button class="cv-button" (click)="navegarACv()">CV</button>
+        <button class="perfil-button" (click)="navegarAPerfil()">Perfil</button>
+    </div>
+
+
+</body>
+
+</html>
